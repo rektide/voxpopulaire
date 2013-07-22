@@ -1,0 +1,28 @@
+<v-vox id="world">
+</v-vox>
+<v-jsonld-materializer/>
+<v-jsonld-context id="ctxVp" src="http://schema.eldergods.com/vox-1.jsonld"/>
+<v-jsonld id="you" context="ctxVp">
+{
+	"@type": "person"
+	name: "Player N",
+	color: "0.87, 0.14, 0.23",
+	currentLocation: {
+		latitude: 0.0,
+		longitude: 0.0,
+		elevation: 3
+	}
+}
+</v-jsonld>
+<v-jsonld id="land" context="ctxVp">
+{
+	name: "Vox",
+	color: "0.23, 0.08, 0.43"
+	currentLocation: {
+		latitude: 0.0,
+		longitude: 0.0,
+		elevation: 0
+	}
+}
+</v-jsonld>
+

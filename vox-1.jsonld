@@ -1,0 +1,10 @@
+{
+	"@context":
+	{
+		"person": "http://schema.org/Person",
+		"place": "http://schema.org/Place",
+		"name": "http://schema.org/name",
+		"currentLocation": "http://schema.org/GeoCordinates",
+		"color": "http://schema.eldergods.com/color-float"
+	}
+}
